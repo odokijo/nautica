@@ -21,7 +21,7 @@ const SUB_PATH = process.env.SUB_PATH || 'sub';
 // Port layanan HTTP untuk langganan
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000;        
 // Menggunakan Nezha v1, jika dijalankan di berbagai platform berbeda perlu mengubah UUID agar tidak tertimpa
-const UUID = process.env.UUID || 'e7b8225d-3305-40ed-995a-4035a7e91cbc'; 
+const UUID = process.env.UUID || '1f37ac4f-fdd0-49df-9406-1eda70a1d512'; 
 // Format pengisian Nezha v1: nz.abc.com:8008 | Format pengisian Nezha v0: nz.abc.com
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';        
 // Jika menggunakan Nezha v1 biarkan kosong, Nezha v0 wajib diisi
@@ -44,7 +44,7 @@ const CFIP = process.env.CFIP || '104.18.17.214';
 // Port yang sesuai untuk domain atau IP tujuan pilihan node
 const CFPORT = process.env.CFPORT || 443;                   
 // Nama Node
-const NAME = process.env.NAME || 'fresh';                        
+const NAME = process.env.NAME || 'ddfathu';                        
 
 // Membuat folder operasi jika belum ada
 if (!fs.existsSync(FILE_PATH)) {
