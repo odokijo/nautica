@@ -1,15 +1,20 @@
 {
-  "name": "nautica",
-  "version": "1.0.2",
-  "private": true,
-  "type": "module",
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Thsi is a node project",
+  "main": "server.js",
+  "author": "",
+  "repository": "",
+  "license": "MIT",
+  "private": false,
   "scripts": {
+    "dev": "node server.js",
     "start": "node server.js"
   },
-  "engines": {
-    "node": ">=20"
-  },
   "dependencies": {
-    "ws": "^8.18.3"
+    "axios": "latest"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
